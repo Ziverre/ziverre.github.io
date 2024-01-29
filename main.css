@@ -1,0 +1,121 @@
+body {
+    background-image: url("grid.png"),linear-gradient(180deg, #030028, #07006c, #ff0088); 
+;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-image: linear-gradient(90deg, #00eaff, #ff009d);
+    margin: 20px;
+}
+a { color: white; text-decoration: none; /* no underline */ }
+.content{
+    display: flex;
+}
+.box {
+    width: 700px;
+    height: 450px;
+    background: #00000088;
+    color: white;
+    border: 5px #00eaff ridge;
+    padding: 25px;
+    overflow: scroll;
+}
+.box a{
+    color: #00eaff;
+}
+.button {
+    width: 100px;
+    padding: 10px;
+    background-image: linear-gradient(180deg, #ffd26a, #ff2bb2);
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.bg{
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    text-align: left;
+}
+.bg img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-width: 1920px;
+}
+.sun{
+    background-image: 
+        linear-gradient(180deg, 
+            transparent 33%,
+            #07006c 33%,
+            #07006c 34%,
+            transparent 34%,
+            transparent 44%,
+            #07006c 44%,
+            #07006c 46%,
+            transparent 46%,
+            transparent 55%,
+            #07006c 55%,
+            #07006c 58%,
+            transparent 58%,
+            transparent 65%,
+            #07006c 65%,
+            #07006c 69%,
+            transparent 69%,
+            transparent 74%,
+            #07006c 74%,
+            #07006c 80%,
+            transparent 80%,
+            transparent 84%,
+            #07006c 84%,
+            #07006c 91%,
+            transparent 91%,
+            transparent 93%,
+            #07006c 93%,
+            #07006c 99%,
+            transparent 100%
+        ),
+        linear-gradient(180deg, #ffd26a, #ff2bb2);
+    height: 185px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.news {
+    width: 450px;
+    overflow: scroll;
+    height: 150px;
+    border: 5px #ff0099 ridge;
+    padding: 25px;
+}
+
+.news .title {
+    color: #00eaff;
+}
+
+.rowbar{
+    display: flex;
+    margin: 5px;
+}
+.rowbar .name{
+    width: 100px;
+}
+.bar {
+    width: 300px;
+    height: 20px;
+    background: #4d4d4d;
+    border-radius: 10px;
+}
+.progress{
+    height: 20px;
+    background-image: url("bar.png"), linear-gradient(270deg, #ffd26a, #ff2bb2);
+    background-size: auto, 300px auto;
+    border-radius: 25px;
+}
